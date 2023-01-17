@@ -63,7 +63,7 @@ fs.createReadStream('canada.txt')
     .on('end', () => {
         console.log('canada.txt file successfully read');
     })
-
+ 
 
 fs.createReadStream(usa)
     .pipe(csv())
